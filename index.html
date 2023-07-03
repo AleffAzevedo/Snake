@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="google" content="notranslate">
+  <title>Jogo Snake</title>
+  <style>
+    #gameCanvas {
+      background-color: #000;
+      display: block;
+    }
+
+    #gameInfo {
+      width: 500px;
+      display: flex;
+      justify-content: space-between;
+      color: #000;
+      font-size: 16px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="gameInfo">
+    <div id="score">Score: 0</br></div>
+    <div id="lives">Lives: 3</div>
+  </div>
+  <canvas id="gameCanvas" width="500" height="500"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
